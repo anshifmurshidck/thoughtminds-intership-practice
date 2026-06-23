@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="hero-left">
         <p className="hero-small">
           Hey there, my name is
@@ -8,9 +8,7 @@ function Hero() {
 
         <h1>Anshif Murshid CK</h1>
 
-        <h2>
-          AI & Data Science Student
-        </h2>
+        <h2>AI & Data Science Student</h2>
 
         <p className="hero-desc">
           I am a second-year B.Tech CSE (AI & DS) student at

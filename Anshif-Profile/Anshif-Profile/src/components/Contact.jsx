@@ -1,6 +1,7 @@
 function Contact() {
   return (
     <section className="contact">
+      <section className="contact" id="contact">
       <div className="contact-left">
         <h2>Contact Me</h2>
 
@@ -45,6 +46,7 @@ function Contact() {
           className="contact-image"
         />
       </div>
+    </section>
     </section>
   );
 }

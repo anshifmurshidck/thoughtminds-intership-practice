@@ -1,11 +1,13 @@
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
+      
+
       <div className="about-image">
         <img
-          src="/profile.jpg"
-          alt="Anshif Murshid CK"
-          className="about-photo"
+          src="/about-illustration.png"
+          alt="About Illustration"
+          className="about-illustration"
         />
       </div>
 
@@ -13,12 +15,13 @@ function About() {
         <h2>About Me</h2>
 
         <p>
-          Greetings! My name is Anshif Murshid CK.
+          Greetings! My name is <strong>Anshif Murshid CK</strong>.
         </p>
 
         <p>
-          I am currently pursuing B.Tech CSE
-          (AI & Data Science) at Mentor Engineering College.
+          I am currently pursuing
+          <strong> B.Tech CSE (AI & Data Science)</strong>
+          at Mentor Engineering College.
         </p>
 
         <p>
@@ -28,10 +31,11 @@ function About() {
         </p>
 
         <p>
-          My goal is to become a skilled AI Engineer
-          and build innovative technology solutions.
+          My goal is to become a skilled AI Engineer and
+          build innovative technology solutions.
         </p>
       </div>
+
     </section>
   );
 }
